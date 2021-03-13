@@ -19,6 +19,7 @@ from TestApp.views import hello, queryEsTest
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/', hello),
+    path('', hello),
+    # path('hello/', hello),
     path('estest/', queryEsTest),
 ]
